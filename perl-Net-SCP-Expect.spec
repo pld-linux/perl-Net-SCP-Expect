@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Net
-%define	pnam	SCP-Expect
+%define		pdir	Net
+%define		pnam	SCP-Expect
 Summary:	Net::SCP::Expect - Wrapper for scp that allows passwords via Expect
 Summary(pl):	Net::SCP::Expect - wrapper dla scp umo¿liwiaj±cy podawanie hase³ przez Expect
 Name:		perl-Net-SCP-Expect
