@@ -1,6 +1,6 @@
 #
 # Conditional build:
-%bcond_without	tests		# do not perform "make test"
+%bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Net
@@ -25,7 +25,7 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This module is simply a wrapper around the scp call.  The primary
+This module is simply a wrapper around the scp call. The primary
 difference between this module and Net::SCP is that you may send
 a password programmatically, instead of being forced to deal with
 interactive sessions.
