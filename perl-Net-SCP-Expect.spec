@@ -6,7 +6,7 @@
 %define		pdir	Net
 %define		pnam	SCP-Expect
 Summary:	Net::SCP::Expect - Wrapper for scp that allows passwords via Expect
-Summary(pl):	Net::SCP::Expect - wrapper dla scp umoøliwiaj±cy podawanie hase≥ przez Expect
+Summary(pl.UTF-8):   Net::SCP::Expect - wrapper dla scp umo≈ºliwiajƒÖcy podawanie hase≈Ç przez Expect
 Name:		perl-Net-SCP-Expect
 Version:	0.12
 Release:	1
@@ -30,10 +30,10 @@ difference between this module and Net::SCP is that you may send
 a password programmatically, instead of being forced to deal with
 interactive sessions.
 
-%description -l pl
-Ten modu≥ jest prostym wrapperem dla wywo≥aÒ scp. G≥Ûwna rÛønica
-miÍdzy tym modu≥em a Net::SCP jest taka, øe moøna programowo wys≥aÊ
-has≥o zamiast byÊ zmuszonym do obs≥ugi interaktywnych sesji.
+%description -l pl.UTF-8
+Ten modu≈Ç jest prostym wrapperem dla wywo≈Ça≈Ñ scp. G≈Ç√≥wna r√≥≈ºnica
+miƒôdzy tym modu≈Çem a Net::SCP jest taka, ≈ºe mo≈ºna programowo wys≈Çaƒá
+has≈Ço zamiast byƒá zmuszonym do obs≈Çugi interaktywnych sesji.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
