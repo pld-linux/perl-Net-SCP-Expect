@@ -8,17 +8,18 @@
 Summary:	Net::SCP::Expect - Wrapper for scp that allows passwords via Expect
 Summary(pl.UTF-8):	Net::SCP::Expect - wrapper dla scp umożliwiający podawanie haseł przez Expect
 Name:		perl-Net-SCP-Expect
-Version:	0.12
-Release:	2
+Version:	0.16
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Net/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	ed57459ab1511bed85479bdcb18cc67a
+# Source0-md5:	a3d8f5e6a34ba3df8527aea098f64a58
 URL:		http://search.cpan.org/dist/Net-SCP-Expect/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
+BuildRequires:	perl(Net::IPv6Addr) >= 0.2
 BuildRequires:	perl-Expect >= 1.14
 BuildRequires:	perl-Term-ReadPassword >= 0.01
 %endif
@@ -57,7 +58,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc CHANGES
+%doc CHANGES README
 %dir %{perl_vendorlib}/Net/SCP
 %{perl_vendorlib}/Net/SCP/Expect.pm
 %{_mandir}/man3/*
