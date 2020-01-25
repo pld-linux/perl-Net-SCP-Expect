@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Net
 %define		pnam	SCP-Expect
 Summary:	Net::SCP::Expect - Wrapper for scp that allows passwords via Expect
