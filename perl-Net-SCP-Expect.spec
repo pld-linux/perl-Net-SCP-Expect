@@ -8,7 +8,7 @@ Summary:	Net::SCP::Expect - Wrapper for scp that allows passwords via Expect
 Summary(pl.UTF-8):	Net::SCP::Expect - wrapper dla scp umożliwiający podawanie haseł przez Expect
 Name:		perl-Net-SCP-Expect
 Version:	0.16
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
